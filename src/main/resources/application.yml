@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: authentication
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/db_test?createDatabaseIfNotExist=true
+    username: root
+    password: 
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database: mysql
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  main:
+    allow-bean-definition-overriding: true
+  

@@ -1,0 +1,7 @@
+.jfx-button {
+    -fx-background-color:  #283747;
+    background-color:  #283747;
+    -fx-text-fill: white;
+    cursor: pointer;
+    -fx-cursor: pointer;
+}

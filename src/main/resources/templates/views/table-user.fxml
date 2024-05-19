@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+<TableView fx:id="table" prefHeight="225.0" prefWidth="529.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.auth.authentication.controller.table.TableAuthController">
+  <columns>
+      <TableColumn fx:id="name" prefWidth="61.0" text="Nombre" />
+      <TableColumn fx:id="lastname" prefWidth="61.0" text="Apellido" />
+      <TableColumn fx:id="age" prefWidth="47.0" text="Edad" />
+      <TableColumn fx:id="principal" prefWidth="79.0" text="Principal" />
+      <TableColumn fx:id="credentials" prefWidth="92.0" text="Credenciales" />
+      <TableColumn fx:id="details" prefWidth="77.0" text="Detalles" />
+      <TableColumn fx:id="authorities" prefWidth="88.0" text="Autoridades" />
+      <TableColumn fx:id="authenticated" prefWidth="78.0" text="Autenticado" />
+      <TableColumn fx:id="sessionDate" prefWidth="139.0" text="Sesión iniciada" />
+  </columns>
+</TableView>

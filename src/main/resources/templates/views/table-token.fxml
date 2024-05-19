@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+<TableView fx:id="table" prefHeight="225.0" prefWidth="524.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.auth.authentication.controller.table.TableTokenController">
+  <columns>
+      <TableColumn fx:id="issuer" prefWidth="61.0" text="Emisor" />
+    <TableColumn fx:id="subject" prefWidth="78.0" text="Sujeto" />
+      <TableColumn fx:id="issuedAt" prefWidth="131.0" text="Generado" />
+      <TableColumn fx:id="expire" prefWidth="131.0" text="Expire" />
+    <TableColumn fx:id="scope" prefWidth="122.0" text="Autoridades" />
+  </columns>
+</TableView>

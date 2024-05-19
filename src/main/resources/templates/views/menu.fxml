@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="menu" prefHeight="391.0" prefWidth="134.0" spacing="5.0" style="-fx-background-color: #283747;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.auth.authentication.controller.menu.MenuController">
+   <children>
+      <JFXButton alignment="BASELINE_LEFT" prefWidth="179.0" text="Inicio" textFill="WHITE">
+         <graphic>
+            <FontAwesomeIconView fill="WHITE" glyphName="HOME" size="16" />
+         </graphic>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton alignment="BASELINE_LEFT" prefHeight="30.0" prefWidth="191.0" text="Mi cuenta" textFill="WHITE">
+         <graphic>
+            <FontAwesomeIconView fill="WHITE" glyphName="USER" size="16" />
+         </graphic>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton alignment="BASELINE_LEFT" prefHeight="30.0" prefWidth="191.0" text="Cerrar sesión" textFill="WHITE">
+         <graphic>
+            <FontAwesomeIconView fill="WHITE" glyphName="SIGN_OUT" size="16" />
+         </graphic>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</VBox>
